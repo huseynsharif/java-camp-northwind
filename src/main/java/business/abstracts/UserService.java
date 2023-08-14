@@ -3,7 +3,9 @@ package business.abstracts;
 import core.entities.User;
 import core.utilities.results.DataResult;
 import core.utilities.results.Result;
+import org.springframework.stereotype.Service;
 
+@Service
 public interface UserService {
 
     Result add(User user);
